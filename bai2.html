@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let x = +prompt("Nhập vào số kiểm tra");
+        let array = [1, 9, 8, 6, 5];
+        function timViTri(x, array) {
+            for (let i = 0; i < array.length; i++) {
+                if (array[i] == x) {
+                    alert("Phần tử " + x + " nằm ở vị trí " + i + " trong mảng");
+                }
+            }
+        }
+        timViTri(x, array);
+    </script>
+</body>
+
+</html>
